@@ -1,0 +1,51 @@
+/*
+  Name: Nurkhat Jumabaev
+  Course Name: CSc337
+  Description: stylesheet for the chatty project
+*/
+
+html,
+body{
+  margin: 0;
+  height: 400px;
+}
+
+#chat-window{
+  position: absolute;
+  padding-left: 20px;
+  font-size: 20px;
+  background-color: antiquewhite;
+  left: 0;
+  right:0;
+  top:0;
+  bottom: 30%;
+  overflow-y: auto;
+}
+#input-window{
+  position: absolute;
+  left: 0;
+  right:0;
+  top: 70%;
+  padding-top: 40px;
+  padding-left: 20px;
+  background-color: lightcoral;
+  height: 30%;
+}
+
+label{
+  font-size: 20px;
+}
+.input-div{
+  margin-bottom: 20px;
+}
+
+#alias{
+  margin-left: 50px;
+}
+#message{
+  margin-left: 22px;
+}
+
+button{
+  height: 30px;
+}

@@ -1,0 +1,32 @@
+<!--
+  Name: Nurkhat Jumabaev
+  Course Name: CSc337
+  Description: this is html page for chatty project.
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Chatty</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <script src="./client.js"></script>
+    <div id="chat-window">
+    </div>
+    <div id="input-window">
+      <div class="input-div">
+        <label>Alias:</label>
+        <input type="text" id="alias">
+      </div>
+      <div class="input-div">
+        <label>Message:</label>
+        <input type="text" id="message">
+      </div>
+      <button onclick="createMessage()">Send Message</button>
+    </div>
+  </body>
+</html>
