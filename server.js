@@ -15,7 +15,7 @@ const mongoose = require('mongoose');
 
 // connecting database to the server
 mongoose.set('strictQuery', true);
-const connection_string = "mongodb://localhost:27017/messages";
+const connection_string = "mongodb+srv://jumabaevnurxat18:xJ2uFjDT5HvXDoCy@cluster0.gq9oyqr.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose.connect(connection_string, {useNewUrlParser:true});
 mongoose.connection.on('error', () => {
